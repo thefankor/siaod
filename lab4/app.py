@@ -21,10 +21,10 @@ class GraphEditor(QWidget):
         self.setWindowTitle("Ориентированный граф: ввод и визуализация")
         self.setGeometry(100, 100, 1000, 600)
 
-        self.vertices = []      # Список координат вершин [(x, y), ...]
-        self.edges = []         # Список рёбер (u, v, weight)
-        self.adjacency = []     # Матрица смежности
-        self.current_path = []  # Кратчайший путь (список вершин)
+        self.vertices = []
+        self.edges = []
+        self.adjacency = []
+        self.current_path = []
         self.start_vertex = None
 
         # Виджеты управления

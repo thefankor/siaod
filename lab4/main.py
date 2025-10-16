@@ -81,7 +81,6 @@ def dijkstra_with_path(graph, start, end):
                     distances[v] = new_distance
                     previous[v] = u
 
-    # Восстановление пути
     path = []
     if distances[end] != math.inf:
         current = end
